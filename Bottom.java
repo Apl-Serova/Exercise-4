@@ -11,6 +11,8 @@ public class Bottom {
         int Z = s.nextInt();
         int sr = X + Y + Z;
         sr /=3;
+        System.out.println("Среднее арифметическое чисел: " + sr);
+        sr /=2;
         if (sr>3)
             System.out.println("Программа выполнена корректно");
     }
